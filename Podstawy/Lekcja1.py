@@ -25,6 +25,43 @@ secondNumber = 3
 print(number * secondNumber + secondNumber * number) #Operacje na zmiennych
 check = True
 print(check)
+# KONWERTOWANIE NA INNE TYPY
+#str()- konwersja na String
+#int() - konwersja na Integer
+#float() - konwersja na float...
+#bool() - Boolean
+
+#Inne funkcje
+#len() - sprawdza dlugosc
+
+lengthWord = "Hello!"
+print(len(lengthWord))
+
+#sorted([]) - sortuje tablice
+sortMe = [4, 2, 6, 23, 63, 765, 3142]
+print(sorted(sortMe))
+
+sortWord = ["A", "C", "G", "H", "Z", "W", "b"] # Mala litera na koniec!
+print(sorted(sortWord))
+
+mixSort = ["5", "7", "5.2", "A", "C", "B", "F", "a", "o", "p"]
+print(sorted(mixSort))
+# Liczby - int i float rosnąco, pierw duże litery, potem małe :)
+
+#Tworzenie wlasnych funkcji
+# definiowanie fukcji - def // funckje definiujemy w ten_sposob
+
+def my_function ():
+    print("This is my function")
+    print("A second string")
+
+my_function()
+
+
+
+
+
+
 
 
 
